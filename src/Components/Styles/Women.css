@@ -1,0 +1,30 @@
+.women-clothing-heading{
+    background-color: antiquewhite;
+    margin: auto;
+}
+.women-clothing-heading>div{
+    width: 100%;
+    border: 4px solid saddlebrown ;
+    padding: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+.womens-data-card{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto,auto);
+    gap: 2rem;
+    margin: auto;
+}
+.product-parent-div{
+    display: flex;
+}
+.products-display-filtering{
+    border: 2px solid orange;
+    width: 20%;
+}
+.products-display-below{
+    border: 2px solid black;
+    width: 80%;
+}

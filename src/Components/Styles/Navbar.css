@@ -1,0 +1,13 @@
+.navbar-box {
+  border: 1px solid black;
+  display: flex;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  margin: auto;
+  align-items: center;
+  text-align: left;
+  justify-content: flex-start;
+  gap: 2rem;
+  padding: 2rem;
+}
