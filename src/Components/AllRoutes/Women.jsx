@@ -10,7 +10,7 @@ function Women() {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(false);
   const getData = () =>
-    axios.get(`http://localhost:3004/products`).then((getData) => {
+    axios.get(`https://fakestoreapi.com/products`).then((getData) => {
       console.log(getData.data);
       setData(getData.data);
     });
@@ -62,8 +62,8 @@ function Women() {
                   <Card>
                     <Card.Img
                       variant="top"
-                      src={el.img}
-                      style={{ width: "100%" }}
+                      src={el.image}
+                      style={{ width: "100%",height:"auto" }}
                     />
                     <Card.Body>
                       <Card.Title>
@@ -81,10 +81,8 @@ function Women() {
                           justifyContent: "space-around",
                         }}
                       >
-                        <Card.Text style={{ color: "black" }}>
-                          <strike>
-                            <strong>{el.strikedOffPrice}$</strong>
-                          </strike>{" "}
+                        <Card.Text style={{ color: "black" }}>Count:
+                            <strong>{el.rating.count}</strong>
                         </Card.Text>
                         <Card.Text style={{ color: "red" }}>
                           <strong>{el.price}$</strong>
