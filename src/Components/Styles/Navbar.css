@@ -1,7 +1,7 @@
 .navbar-box {
   border: 1px solid black;
   display: flex;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
   color: black;
   margin: auto;
@@ -10,4 +10,20 @@
   justify-content: flex-start;
   gap: 2rem;
   padding: 2rem;
+}
+.navbar-links{
+  width: 20%;
+  justify-content: space-around;
+  display: flex;
+  /* border:  1px solid black; */
+  padding: 0.3rem;
+}
+.navbar-searchbar{
+  border: 1px solid red;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr;
+  gap: 1rem;
+  justify-content: space-evenly;
+
 }

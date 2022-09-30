@@ -6,8 +6,4 @@
 }
 .cards-box-display{
     width: 80%;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(auto,auto);
-    gap:1rem
 }

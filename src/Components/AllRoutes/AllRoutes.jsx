@@ -5,6 +5,7 @@ import Additem from "./Additem";
 import Login from "./Login";
 import PrivateRoute from "./PrivateRoute";
 import ProductsPage from "./ProductsPage";
+import FinalPaymentPage from "./FinalPaymentPage";
 function AllRoutes() {
   return (
     <div>
@@ -15,6 +16,14 @@ function AllRoutes() {
           element={
             <PrivateRoute>
               <ProductsPage />
+            </PrivateRoute>
+          }
+        />
+        <Route
+          path="/finalPayment"
+          element={
+            <PrivateRoute>
+              <FinalPaymentPage />
             </PrivateRoute>
           }
         />
