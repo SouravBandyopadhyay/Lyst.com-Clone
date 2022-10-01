@@ -1,8 +1,11 @@
 .home-bottom-section {
-  border-bottom: 2px solid black;
+border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 0.3rem;
+  background-color: #F5EFE6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .home-bottom-section-card {
   /* border: 1px solid royalblue; */
@@ -23,7 +26,8 @@
 }
 .home-bottom-section-list {
   width: 75%;
-  border: 2px solid cyan; 
+  /* border: 2px solid cyan;  */
+  margin-top: 1rem;
 }
 .home-bottom-section-list>p{
     justify-content: space-between;

@@ -1,15 +1,22 @@
+import { position } from "@chakra-ui/react";
+import { fontWeight } from "@mui/system";
 import { RiShoppingCartLine } from "@react-icons/all-files/ri/RiShoppingCartLine";
 function Header(props) {
   return (
     <div
       style={{
-        border: "1px solid black",
+        // border: "1px solid black",
         width: "20%",
         display: "flex",
         justifyContent: "space-between",
-        margin: "auto",
         padding: "1rem",
         gap: "1rem",
+        left: "0",
+        overflow:"hidden",
+        position:"-webkit-sticky",
+        position:"sticky",
+        top:"5%",
+        fontWeight:"700"
       }}
       className="flex shopping-card"
     >
@@ -23,7 +30,7 @@ function Header(props) {
             fontWeight: "600",
             backgroundColor: "yellow",
             borderRadius: "50%",
-            fontSize:"0.9rem"
+            fontSize: "0.9rem",
           }}
         >
           {props.count}

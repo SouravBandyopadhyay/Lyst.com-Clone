@@ -40,7 +40,7 @@ function ProductsPage() {
   };
   return (
     <>
-      <div>
+      <div >
         <Header count={cart.length} handleShow={handleShow} />
       </div>
       <div>
@@ -50,8 +50,8 @@ function ProductsPage() {
           <div className="products-box">
             <div className="card-filtering-box">
               <Accordion defaultActiveKey="0">
-                <Accordion.Item eventKey="0">
-                  <Accordion.Header>Sort By Price</Accordion.Header>
+                <Accordion.Item eventKey="0"  style={{backgroundColor:"#FFF9B0"}} >
+                  <Accordion.Header style={{fontWeight:"bold",textDecoration:"underline"}} >Sort By Price</Accordion.Header>
                   <Accordion.Body>
                     <Button variant="outline-info" onClick={handleAsc}>
                       Ascending

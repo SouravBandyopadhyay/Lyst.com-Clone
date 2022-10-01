@@ -52,10 +52,10 @@ function Productcard({ data, addToCart }) {
             >
               <div>
                 <Card.Text style={{ color: "black" }}>
-                  <strike>{productItem.strikedOffPrice}$</strike>
+                  <s>{productItem.strikedOffPrice}₹</s>
                 </Card.Text>
                 <Card.Text style={{ color: "red" }}>
-                  <strong>{productItem.price}$</strong>
+                  <strong>{productItem.price}₹</strong>
                 </Card.Text>
               </div>
               <div>

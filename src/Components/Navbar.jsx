@@ -7,8 +7,8 @@ function Navbar() {
   return (
     <div className="navbar-box">
       <div className="navbar-links" >
-        <Link to="/" style={{color:"black",fontWeight:"600" }} >LYST</Link>
-        <Link to="/productspage" style={{color:"black"}}>
+        <Link to="/" style={{  color:"black",fontWeight:"900",fontSize:"2rem",textDecoration:"none" }} >LYST</Link>
+        <Link to="/productspage" style={{ color:"black",textDecoration:"none",fontSize:"1rem", margin:"auto"}}>
           Products Page
         </Link>
         {/* <Link to="/login" style={{color:"black"}}>

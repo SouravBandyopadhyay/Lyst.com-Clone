@@ -10,6 +10,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(auto,auto);
+  margin-top: 1rem;
 }
 .home_discover_card {
   /* border: 1px solid red; */

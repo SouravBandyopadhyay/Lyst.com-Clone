@@ -1,9 +1,9 @@
 import "../Styles/Home.css";
 import Homebottomsection from "./Homebottomsection";
+import Homepageads from "./Homepageads";
 function Home() {
   return (
     <>
-      <h2>Home</h2>
       <div className="home_img_top">
         <img
           src="https://cdna.lystit.com/cms/ENG_header_XL_9f9e2af236_615828663f.jpg"
@@ -110,6 +110,7 @@ function Home() {
         </div>
       </div>
       {/* homesubbottomsection */}
+      <Homepageads/>
       <Homebottomsection/>
     </>
   );
